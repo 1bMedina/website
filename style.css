@@ -23,7 +23,7 @@
 }
 .logo{
     width: 160px;
-    margin-top: -10px;
+    margin-top: 10px;
     cursor: pointer;
     width: 100px;
     height: 100px;
@@ -275,3 +275,163 @@ a:hover{
         margin-top: -40%;
     }
 }
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #fcefb4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    background: #fae588;
+    display: flex;
+    flex-direction: column;
+    padding: 1vw 4vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+form h3{
+    color: #000;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+form h4, from textarea{
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background: white;
+    font-size: 16px;
+}
+h1{
+    text-transform: uppercase;
+    text-align: center;
+}
+.timeline{
+    position: relative;
+    max-width: 1200px;
+    margin: 100px auto;
+}
+.container2{
+    padding: 10px 50px;
+    position: relative;
+    width: 50%;
+}
+.text-box{
+    padding: 20px 30px;
+    background: #fff;
+    position: relative;
+    border-radius: 6px;
+    font-size: 15px;
+}
+.left-container{
+    left: 0%;
+}
+.right-container{
+    left: 50%;
+}
+.timeline::after{
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 175%;
+    background: white;
+    top: 0;
+    left: 50%;
+    margin-left: -3px;
+    z-index: -1; 
+}
+
+.text-box h2{
+    font-weight: 600;
+}
+.text-box small{
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.left-container-arrow{
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 28px;
+    z-index: 1;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid #fff;
+    right: -15px;
+}
+.right-container-arrow{
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 28px;
+    z-index: 1;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid #fff;
+    left: -15px;
+}
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+    font-size: 70px;
+}
+button2{
+    width: 200px;
+    padding: 15px;
+    margin: 20px 5px;
+    text-align: right;
+    border-radius: 25px;
+    color: black;
+    border: 2px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    background-color:white;
+    
+}
+button2:hover{
+    background: #fae588;
+    transition: 0.5s;
+}
+button2:hover{
+    color: white;
+}
+h3{
+    text-transform: uppercase;
+    text-align: left;
+    padding: 15px;
+    font-weight: 600;
+    font-size: 50px;
+}
+h4{
+    text-transform: uppercase;
+    text-align: right;
+    padding: 15px;
+    font-weight: 600;
+    font-size: 50px;
+}
+button3{
+    width: 200px;
+    padding: 15px;
+    margin: 20px 5px;
+    text-align: right;
+    border-radius: 25px;
+    color: black;
+    border: 2px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    background-color:white;
+    
+}
+button3:hover{
+    background: #fae588;
+    transition: 0.5s;
+}
+button3:hover{
+    color: white;
