@@ -34,8 +34,12 @@ nav a{
     color: white;
     font-weight: 600;
 }
-a:hover{
+nav a:hover{
     background: white;
+    transition: 0.5s;
+}
+a:hover{
+    background: #fae588;
     transition: 0.5s;
 }
 nav a:hover{
@@ -60,14 +64,14 @@ button{
     margin: 20px 5px;
     text-align: center;
     border-radius: 25px;
-    color: black;
+    color: #fae588;
     border: 2px;
     font-size: 20px;
     cursor: pointer;
     font-weight: 600;
 }
 button:hover{
-    background: #fcefb4;
+    background: #fae588;
     transition: 0.5s;
 }
 button:hover{
@@ -94,11 +98,11 @@ body{
     background: #fcefb4;
 }
 a:link{
-    color: white;
+    color: black;
     text-decoration: none;
 }
 a:hover{
-    color: black;
+    color: white;
     text-decoration: none;
 }
 .about-wrapper{
