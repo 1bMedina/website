@@ -1,0 +1,270 @@
+body {
+    background-color: #6b705c;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+
+h1 {
+    color: #b7b7a4;
+    text-align: center;
+    font-size: xx-large;
+    border-color: white;
+    border-style: solid;
+}
+
+p {
+    font-family: "Times New Roman";
+    font-size: large;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    position: fixed;
+    left: 0%;
+    bottom: 0%;
+    width: 500px;
+    height: 323px;
+
+   
+}
+pp {
+    font-family: "Times New Roman";
+    font-size: large;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    position: fixed;
+    right: 0%;
+    margin-top: 0%;
+    width: 500px;
+    height: 225px;
+
+   
+}
+sub {
+    font-family: "Times New Roman";
+    font-size: medium;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 5px;
+    color: white;
+    text-align: right
+    
+}
+.container {
+    background-color: #b7b7a4;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: medium;
+    position: fixed;
+    right: 2rem;
+    top: 2rem;
+
+}
+
+.container2 {
+    background-color: #b7b7a4;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: medium;
+    position: fixed;
+    left: 2rem;
+    top: 2rem;
+
+}
+
+.vertical {
+    border-left: 2px solid white;
+    height: 4000px;
+    position:absolute;
+    left: 50%;
+  }
+
+
+
+g {
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    border-color: white;
+    border-style: solid;
+    
+}
+
+s {
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    border-color: white;
+    border-style: solid;
+}
+
+i {
+    position: absolute;
+    bottom: 0%;
+    left: 33%;
+    border-color: white;
+    border-style: solid;
+}
+im {
+    position:absolute;
+    margin-top: 0%;
+    left: 0%;
+    border-color: white;
+    border-style: solid;
+}
+ppp {
+    font-family: "Times New Roman";
+    font-size: medium;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    position: fixed;
+    left: 0%;
+    margin-top: 0%;
+    width: 450px;
+    height: 295px;
+
+   
+}
+p4 {
+    font-family: "Times New Roman";
+    font-size: medium;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    color: white;
+    position: absolute;
+    text-align: center;
+    left: 34%;
+    margin-top: 0%;
+    width: 450px;
+    height: 295px;
+}
+p5 {
+    font-family: "Times New Roman";
+    font-size: medium;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    color: white;
+    position: absolute;
+    text-align: center;
+    left: 68%;
+    margin-top: 0%;
+    width: 450px;
+    height: 150px;
+}
+p6 {
+    font-family: "Times New Roman";
+    font-size: large;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    position: fixed;
+    left: 0%;
+    bottom: 0%;
+    width: 500px;
+    height: 300px;
+
+   
+}
+p7 {
+    font-family: "Times New Roman";
+    font-size: large;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    position: fixed;
+    margin-top: 0%;
+    right: 0%;
+    width: 500px;
+    height: 250px;
+
+   
+}
+p8 {
+    font-family: "Times New Roman";
+    font-size: medium;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    position: fixed;
+    left: 0%;
+    bottom: 0%;
+    width: 500px;
+    height: 300px;
+
+   
+}
+p9 {
+    font-family: "Times New Roman";
+    font-size: large;
+    color: white;
+    position: absolute;
+    text-align: center;
+    width: 500px;
+    height: 300px;
+    right: 25%;
+
+   
+}
+l {
+    font-family: "Times New Roman";
+    font-size: large;
+    color: white;
+    position: absolute;
+    text-align: center;
+    width: 500px;
+    height: 300px;
+    right: 33%;
+
+}
+p10{
+    font-family: "Times New Roman";
+    font-size: medium;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    position: fixed;
+    right: 0%;
+    margin-top: 0%;
+    width: 500px;
+    height: 250px;
+}
+
+p11 {
+    color: #b7b7a4;
+    text-align: center;
+    font-size: xx-large;
+    border-color: white;
+    border-style: solid;
+    margin-bottom: 0%;
+    bottom: 0%;
+}
