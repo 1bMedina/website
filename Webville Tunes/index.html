@@ -2,40 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="utf=8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="Stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
+    <script src="playlist.js"></script>
+    <link rel="Stylesheet" href="playlist.css">
     <title>Webville Tunes</title>
 </head>
 <body>
+    <h2>Webville Tunes</h2>
     <form>
-        <input type="text" id="songTextInput" size="40" placeholder="Song name">
-        <input type="button" id="addButton" value="add Song">
+    <input type="text" id="songTextInput" size="40" placeholder="Song name">
+    <input type="button" id="addButton" value="add Song">
     </form>
-<ul id="playlist">
+    <ul id="playlist">
 
-</ul>
-<script>
-    var button = document.getElementById("addButton");
-    function handleButtonClick() {
-        alert("Button was clicked!")
-    }
-    var button = document.getElementById("addButton"); button.onclick = handleButtonClick;
+    </ul>
     
-    window.onload = init;
-    function init() {
-        var button = document.getElementById("addButton"); button.onclick = handleButtonClick;
-}
-    function handleButtonClick() {
-    alert("Button was clicked!");
-}
-function handleButtonClick() {
-    var textInput = document.getElementById("songTextInput");
-    var songName = textInput.value;
-    alert("adding " + songName);
-}
-
-
-</script>
-
 </body>
 </html>
