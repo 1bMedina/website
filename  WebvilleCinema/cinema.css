@@ -1,0 +1,17 @@
+body {
+    background-image:url(cinema.jpeg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width:1000px;
+    height:auto;
+    margin:0 auto;
+}
+h1 {
+    color: white;
+    text-align: center;
+    width: 500px;
+    margin-left: 30%;
+    padding-top: 375px;
+
+}
