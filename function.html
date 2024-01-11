@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onload="myFunction();">
+    <script>
+          function myFunction(arg1) {
+            alert("The function has been called and was passed " + arg1);
+            return "myFunction() return value";
+        }
+    </script>
+    <form name="myForm">
+        <input type="button" value="Take Quiz" onclick="takeTest();"" />
+    </form>
+    <script>
+        var numCorrect = 0;
+        function takeTest() {
+            var response = "";
+            var points = 0;
+            var q1 = "what has 4 legs but never moves?";
+            var a1 = "A TABLE";
+            var q2 = "what is the answer to life, the univers, and everything?";
+            var a2 = 42;
+            var q3 = "what word begins with an E and ends with an e, but onlu has 1 letter?";
+            var a3 = "AN ENVELOPE";
+            response = prompt(q1, "");
+            if (response) points = runningTotal(response.toUpperCase() == a1 ? 1 : 0);
+            alert(points);
+            response = prompt(q2, "");
+            if (response) points = runningTotal(response == a2 ? 1 : 0);
+            alert(points);
+            response = prompt(q3, "");
+            if (response) points = runningTotal(response.toUpperCase() == a3 ? 1 : 0);
+            alert("You answered a total of " + points + " correctly.");
+            numCorrect = 0;
+            points = 0;
+        }
+        function runningTotal(i) {
+            numCorrect += i;
+            return numCorrect;
+        }
+    </script>
+</body>
+</html>
