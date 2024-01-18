@@ -3,18 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=>, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="Stylesheet" href="riddle.css">
+    <title>Riddler Test</title>
 </head>
 <body onload="myFunction();">
-    <script>
-          function myFunction(arg1) {
-            alert("The function has been called and was passed " + arg1);
-            return "myFunction() return value";
-        }
-    </script>
+
+<div id="main">
+    <h1> Welcome to THE riddler test. </h1>
+</div>
+<div id="arti">
+    <h2>If you can pass, a suprise awaits you at the end.</h2>
+<p> Hello, I am The Riddler. If you can pass my test you have proven that you are worthy for the suprise. To take the test you must click the "Take Test" button. There will be 3 questions which you must answer correctly to unlock the suprise at the end. </p>
+</div>
+
+<div id="button">
     <form name="myForm">
-        <input type="button" value="Take Quiz" onclick="takeTest();"" />
+        <input id="button1" type="button" value="Take Test" onclick="takeTest();" />
     </form>
+</div>
+
     <script>
         var numCorrect = 0;
         function takeTest() {
@@ -34,14 +41,20 @@
             alert(points);
             response = prompt(q3, "");
             if (response) points = runningTotal(response.toUpperCase() == a3 ? 1 : 0);
-            alert("You answered a total of " + points + " correctly.");
+            alert("You answered a total of " + points + " correctly." );
+            if (points == 3) {
+                alert('click OK for your surprise...')
+                window.location = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+            }
             numCorrect = 0;
             points = 0;
         }
         function runningTotal(i) {
             numCorrect += i;
             return numCorrect;
+
         }
-    </script>
+        
+    </script>    
 </body>
 </html>

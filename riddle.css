@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'Riddler';
+    src: url(fonts/Riddler.woff) format('woff');
+}
+@font-face {
+    font-family: 'SamHandwriting';
+    src: url(fonts/SamHandwriting.woff) format('woff');
+}
+
+body {
+    background-color: #97a97c;
+}
+
+#main h1{
+font-family: 'Riddler';
+font-size: 5rem;
+text-align: center;
+}  
+#arti h2{
+    font-family: 'SamHandwriting';
+    font-size: 3rem;
+    text-align: center;
+}
+#arti p{
+    font-family: 'SamHandwriting';
+    font-size: 2rem;
+    text-align: center;
+    width: 800px;
+    border: 9px solid #718355;
+    padding: 30px;
+    margin: 20px;
+    background-color: #b5c99a;
+    position: relative;
+    left: 253px;
+}
+input[type=button] {
+    text-align: center;
+    border: none;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    border: 2px solid #000;
+    border-radius: 20px;
+    padding: 0.55rem 0;
+    width: 130px;
+    font-weight: 600;
+    background: transparent;
+    margin: 0 0.5rem;
+    cursor: pointer;
+    position: absolute;
+    left: 45%;
+    font-family: 'Riddler';
+    font-size: 1rem;
+
+}
+input[type=button]{
+    background: #b5c99a;
+    color: black;
+    border-color: #718355;
+    border-width: 4px;
+    transition: all 0.5s ease-in-out;
+
+}
+input[type=button]:hover{
+    background: transparent;
+    border-color: #b5c99a;
+    background: #718355;
+    color: white;
+}
+input[type=button]{
+    transition: all 0.5s ease-in-out;
+}
