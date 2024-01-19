@@ -387,19 +387,17 @@ h2{
     font-size: 70px;
 }
 button2{
-    width: 200px;
     padding: 15px;
-    margin: 20px 5px;
-    text-align: right;
+    text-align: center;
     border-radius: 25px;
     color: black;
     border: 2px;
     font-size: 20px;
     cursor: pointer;
     font-weight: 600;
-    background-color:white;
-    
+    background-color:white; 
 }
+
 button2:hover{
     background: #68784F;
     transition: 0.5s;
@@ -407,6 +405,7 @@ button2:hover{
 button2:hover{
     color: white;
 }
+
 h5{
     text-transform: uppercase;
     text-align: left;
@@ -437,4 +436,15 @@ button3:hover{
 }
 button2 a{
     color: black;
+}
+
+.button-wrapper {
+    width: 100vw;
+    display: flex;
+    row-gap: 10px;
+    column-gap: 10px;
+    flex-flow: wrap;
+    align-items: center;
+
+    ;
 }
