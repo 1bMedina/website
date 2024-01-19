@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>optional 6-1 lab</title>
+    <link rel="Stylesheet" href="event.css">
+</head>
+<body>
+    <script>
+        function vote() {
+            var t = "Vote for your favorite Greys Anatomy character: ";
+            for (i = 0; i < document.myform.sports.length; i++) {
+                if (document.myform.sports[i].checked == true) {
+                    t = t + document.myform.sports[i].value;
+                }
+            }
+            if (t == "Vote for your favorite Greys Anatomy character: ") {
+                document.getElementById("txt").value = "Choose a sport";
+            } else {
+                document.getElementById("txt").value = t;
+                document.getElementById("txt1").value = t;
+                document.getElementById("txt2").value = t;
+            }
+        }
+        function upperCase() {
+            var x = document.getElementById("txt").value;
+            document.getElementById("txt").value = x.toUpperCase();
+        }
+        function SayHello() {
+            alert("Your mouse is over the text!");
+        }
+        function SayGoodbye() {
+            alert("Your mouse has left the text!");
+        }
+    </script>
+</head>
+<body>
+    <h3>Greys Anatomy</h3>
+    <img src="Untitled design.png" alt="greys">
+    <hr/>
+    <h4>This is where you vote for your favorite Greys Anatomy character</h4>
+    <p>Vote for your favorite Greys Anatomy character: </pp>
+    <form name="myform">
+        <input type="radio" name="sports" value="Meredith Grey" />Meredith Grey<br/>
+        <input type="radio" name="sports" value="Cristina Yang" />Cristina Yang<br/>
+        <input type="radio" name="sports" value="Izzie Stevens" />Izzie Stevens<br/>
+        <input type="radio" name="sports" value="Alex Kavrev" />Alex Karev<br/>
+        <input type="radio" name="sports" value="George O'Malley" />Geoege O'Malley<br/>
+        <input type="radio" name="sports" value="Derek Shepherd" />Derek Shepherd<br/>
+        <input type="radio" name="sports" value="Miranda Bailey" />Miranda Bailey<br/>
+        <p><input type="button" value="VOTE" onclick="vote()" /> <input type="reset" value="RESET" /></p>
+        <p><input type="text" id="txt" size="40" onblur="upperCase()" /> Click in then out!</p>
+        <p><input type="text" id="txt1" size="40" onmouseover="SayHello()" /> Hover over this field!</p>
+        <p><input type="text" id="txt2" size="40" onmouseout="SayGoodbye()" /> Hover this field then away!</p>
+    </form>
+</body>
+</html>
