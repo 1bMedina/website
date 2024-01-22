@@ -76,6 +76,7 @@ button:nth-child(2){
     position: fixed;
     left: 2rem;
     top: 2rem;
-    font-size: 25px;
+    font-size: 35px;
+    font-family: 'Gigihandwriting';
 
 }
