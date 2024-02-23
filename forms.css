@@ -6,4 +6,11 @@
     background-color: #6B7153;
     font-family:'houseplant DEMO' ;
 }
+input[type="text"], input[type="date"], input[type="education"], input[type="number"]{
+    background-color: white;
+}
+fieldset{
+    color: white;
+}
+
 
