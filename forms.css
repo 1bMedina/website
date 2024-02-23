@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'houseplant DEMO';
+    src: url(fonts/houseplant+DEMO.woff) format('woff');
+  }
+* {
+    background-color: #6B7153;
+    font-family:'houseplant DEMO' ;
+}
+

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Potted Plants</title>
+    <link rel="Stylesheet" href="forms.css">
+</head>
+<body>
+    <form>
+        <fieldset name="personal_info">
+            <legend>Personal Information:</legend>
+            <p>
+                <label for="first">First name: </label>
+                <input type="text" name="firstname" id="first" />
+            </p>
+            <p>
+                <label for="last">Last name: </label>
+                <input type="text" name="lastname" id="last" />
+            </p>
+            <p>
+                <label for="db">Date of Birth: </label>
+                <input type="date" name="dob" id="db" />
+            </p>
+            <p>
+                <label for="cont">Level of Education? </label>
+                <input list="continents" name="continent" id="cont" />
+                <datalist id="continents">
+                    <option value="Elementry"> </option>
+                    <option value="Middle School"> </option>
+                    <option value="High school"> </option>
+                    <option value="One year Degree"> </option>
+                    <option value="Associates Degree"> </option>
+                    <option value="4 year degree"> </option>
+                    <option value="4+ year degree"> </option>
+                </datalist>
+            </p>
+        </fieldset>
+        <fieldset name="other-information">
+            <legend>Other Information:</legend>
+            <p>
+                <label for="tech">How many languages do you know?: 0 </label>
+                <input type="range" name="languages" min="0" max="50" value="25" id="tech" /> 10+
+            </p>
+            <p>
+                <label for="num">Age of user: </label>
+                <input type="number" name="age" min="1" max="100" id="num" />
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>

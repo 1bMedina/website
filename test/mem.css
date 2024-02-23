@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'Gameplay';
+    src: url(font/Gameplay.woff) format('woff');
+  }
+  @font-face {
+    font-family: 'Ruler Modern';
+    src: url(font/RulerModern.woff) format('woff');
+  }
+  @font-face {
+    font-family: 'CardenioModern-Bold';
+    src: url(font/CardenioModern-Bold.woff) format('woff');
+  }
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Inconsolata', sans-serif;
+    background-color: #7b2cbf;
+}
+nav{
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    color: white;
+    float: right;
+}
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    margin: 10px;
+}
+nav a:hover{
+    background: white;
+    transition: 0.5s;
+    color: #7b2cbf;
+}
+a:hover{
+    transition: 0.5s;
+
+}
+a {
+    font-family: 'Ruler Modern';
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+}
+h1{
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    top: 25%;
+    left: 27%;
+    font-size: 6em;
+    font-family: 'Gameplay';
+    letter-spacing: .7rem;
+}
+img {
+    position: absolute;
+    left: 3%;
+    top: 45%;
+}
+#img2 {
+    position: absolute;
+    left: 70%;
+    top: 45%;
+}
+#p{
+    width:500px;
+	height:200px;
+	margin:40px;
+	padding:20px;
+    background-color: #e0aaff;
+    border-radius: 25px;
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    font-family: 'Ruler Modern';
+    color: white;
+    border: 9px solid #c77dff;
+}
+h1 {
+    font-size: 90px;
+    font-family: 'Gameplay';
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 4s steps(14) infinite alternate,
+        blink 800ms steps(14) infinite normal;
+    border-right: 5px solid black;
+    color: #e0aaff;
+}
+
+@keyframes typewriter {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 50%;
+    }
+}
+
+@keyframes blink {
+    from {
+        border-color: black;
+    }
+
+    to {
+        border-color: transparent;
+    }
+}
