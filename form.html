@@ -7,16 +7,16 @@
     <link rel="Stylesheet" href="forms.css">
 </head>
 <body>
-    <form>
+    <form autocomplete="on">
         <fieldset name="personal_info">
             <legend>Personal Information:</legend>
             <p>
                 <label for="first">First name: </label>
-                <input type="text" name="firstname" id="first" />
+                <input autofocus required type="text" name="firstname" id="first" />
             </p>
             <p>
                 <label for="last">Last name: </label>
-                <input type="text" name="lastname" id="last" />
+                <input required type="text" name="lastname" id="last" />
             </p>
             <p>
                 <label for="db">Date of Birth: </label>
@@ -46,6 +46,24 @@
                 <label for="num">Age of user: </label>
                 <input type="number" name="age" min="1" max="100" id="num" />
             </p>
+            <p>
+                <label for="date">Date: </label>
+                <input type="text" name="date" placeholder="dd/mm/yyyy" pattern="\d{1,2}/\d{1,2}/\d{4}" id="date" />
+            </p>
+            <p>
+                <label for="mail">E-mail: </label>
+                <input type="email" placeholder="user@provider.com" name="email" pattern="^.+@.+$" id="mail" />
+            </p>
+            <p>
+                <label for="url">URL: </label>
+                <input type="url" placeholder="http://www.ciwcertified.com" name="URL" pattern="https?://.+" id="url" />
+            </p>
+            <p>
+                <label for="rate">Price: </label>
+                &#36;<input type="text" placeholder="0.00" name="price" pattern="\d+(\.\d{2})?" id="rate" />
+            </p>
+            <button type="submit" formaction="http://ss1.ciwcertified.com/cgi-bin/process.pl">Submit Form</button>
+            <button type="submit" formaction="http://ss1.ciwcertified.com/cgi-bin/process.pl" formtarget="_blank">Submit Form to a New Window</button>
         </fieldset>
     </form>
 </body>
