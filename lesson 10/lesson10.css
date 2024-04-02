@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'Cute Love';
+  src: url(CuteLove.woff) format('woff');
+}
+@font-face {
+  font-family: 'cuteness';
+  src: url(cuteness.woff) format('woff');
+}
+body {
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 90vh 10vh;
+    background-color: #FFF;
+    font-family: "cuteness";
+    background-color: #ffcdb2;
+  }
+  main {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+  footer {
+    grid-area: 2 / 1 / 3 / 2;
+    padding: 1vw;
+    font-size: 1.8vw;
+    font-weight: bold;
+    color: white;
+  }
+  footer>nav {
+    float: right;
+    height: 100%;
+  }
+  footer>nav>button {
+    font-size: x-large;
+    margin-right: 1vw;
+  }
+  section {
+    display: none;
+    font-size: 2.4vw;
+    margin: 2vw;
+  }
+  section>h2 {
+    color: #6d6875;
+    text-align: center;
+    font-size: 3.5vw;
+    font-family: 'Cute Love';
+  }
+  section>h3 {
+    color: #b5838d;
+    text-align: center;
+    font-size: 2.8vw;
+  }
+  section>h4 {
+    color: #174A68;
+    text-align: center;
+    font-size: 2.8vw;
+  }
+  section>p {
+    color: #02689C;
+    font-size: 2.8vw;
+  }
+  section>ul {
+    margin-left: 10vw;
+  }
+  section>ul>li {
+    margin-top: 1vw;
+    text-align: left;
+  }
+  section>li{
+    text-align: left;
+  }
+  div.col2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    margin: -1vw 3vw 1vw 3vw;
+    font-size: 2vw;
+  }
+  a, a:visited {
+    text-decoration: none;
+  }
+  #noplan1, #noplan2, #noplan3, #noplan4, #noplan5 {
+    font-size: 4vw;
+    font-family: 'cuteness';
+    color: #b5838d;
+    visibility: hidden;
+  }
+  #noplan5 {
+    color: red;
+  }
