@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'CCD';
+    src: url(CreamCheese.woff) format('woff');
+}
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    background-color: #e6ccb2;
+}
+
+h1 {
+    font-family: 'CCD';
+    padding: 20px;
+    align-items: center;
+    font-size: 3rem;
+    color: #b08968;
+}
+button{
+    width: 200px;
+    padding: 15px;
+    margin: 20px 5px;
+    text-align: center;
+    border-radius: 25px;
+    color: #7f5539;
+    border: 2px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 9px 9px 2px 1px #b08968;
+    position: absolute;
+}
+button:hover{
+    background: linear-gradient(#9c6644, #7f5539);
+    transition: 2s;
+
+
+}
+button:hover{
+    color: white;
+}
+a button{
+    align-items: center;
+    justify-content: center;
+    position:absolute;
+}
