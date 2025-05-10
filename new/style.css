@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'atwriter';
+    src: url(atwriter.woff) format('woff');
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav button{
+    float: right;
+    text-decoration: none;
+    padding: 10px;
+    border: none;
+    background: none;
+    font-family: atwriter;
+    color: #a3664e;
+    font-size: 1.6rem;
+}
+body{
+    background-color: #f1daae;
+    font-size: 12px;
+}
